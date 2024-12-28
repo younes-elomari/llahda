@@ -21,7 +21,11 @@ const PopularNews = () => {
               <h6 className="text-[20px] text-gray-700">{item.date}</h6>
             </div>
             <div className="absolute bottom-0 right-0">
-              <a className="bg-red-500 hover:bg-red-600 transition text-gray-100 rounded-sm px-3 py-2 text-[16px] cursor-pointer">
+              <a
+                href={item.url}
+                target="_blank"
+                className="bg-red-500 hover:bg-red-600 transition text-gray-100 rounded-sm px-3 py-2 text-[16px] cursor-pointer"
+              >
                 المزيد من التفاصيل
               </a>
             </div>
