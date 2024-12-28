@@ -1,3 +1,4 @@
+import Footer from "./_Components/main/Footer";
 import Hero from "./_Components/main/Hero";
 import LatestNews from "./_Components/main/LatestNews";
 import NavBar from "./_Components/main/NavBar";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <LatestNews />
       <PopularNews />
+      <Footer />
     </main>
   );
 }
