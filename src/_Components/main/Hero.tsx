@@ -2,7 +2,7 @@ import HeroContent from "../Sub/HeroContent";
 
 const Hero = () => {
   return (
-    <section className="px-5 md:px-10">
+    <section>
       <div className="relative w-full">
         <img
           src="heroBackground.jpg"

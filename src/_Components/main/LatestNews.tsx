@@ -8,7 +8,7 @@ const LatestNews = () => {
 
   return (
     <section
-      className="w-full h-full py-12 px-5 md:px-10 grid md:grid-cols-2 gap-4"
+      className="w-full h-full py-12 grid md:grid-cols-2 gap-4"
       dir="rtl"
     >
       <div className="w-full space-y-2">
