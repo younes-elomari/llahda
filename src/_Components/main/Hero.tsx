@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="px-5 md:px-10">
       <div className="relative w-full">
         <img
-          src="heroBackground.svg"
+          src="heroBackground.jpg"
           alt="hero background"
           className="w-full h-full object-cover absolute z-[-15]"
         />
