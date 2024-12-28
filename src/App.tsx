@@ -6,7 +6,7 @@ import PopularNews from "./_Components/main/PopularNews";
 
 function App() {
   return (
-    <main className="px-5 md:px-10">
+    <main className="px-5 md:px-10 max-w-[1920px] m-auto">
       <NavBar />
       <Hero />
       <LatestNews />

@@ -2,7 +2,7 @@ import useData from "../../hooks/useData";
 import Spinner from "../Sub/Spinner";
 
 const LatestNews = () => {
-  const { data, error, isLoading } = useData();
+  const { data, isLoading } = useData();
 
   const shortData = data?.results.slice(0, 4);
 

@@ -2,7 +2,7 @@ import useData from "../../hooks/useData";
 import Spinner from "../Sub/Spinner";
 
 const PopularNews = () => {
-  const { data, error, isLoading } = useData();
+  const { data, isLoading } = useData();
 
   return (
     <section className="py-10 space-y-4" dir="rtl">
