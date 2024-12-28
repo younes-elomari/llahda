@@ -1,5 +1,11 @@
-function App() { 
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import NavBar from "./_Components/main/NavBar";
+
+function App() {
+  return (
+    <main>
+      <NavBar />
+    </main>
+  );
 }
 
 export default App;
